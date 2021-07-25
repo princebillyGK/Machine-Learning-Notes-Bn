@@ -1,0 +1,8 @@
+[book]
+authors = ["princebillygk"]
+language = "en"
+multilingual = false
+src = "src"
+title = "মেশিন লার্নিং"
+[output.html]
+mathjax-support = true

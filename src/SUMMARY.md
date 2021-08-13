@@ -8,5 +8,7 @@
     
     - [ডেটা ভিজ্যুয়ালাইজেশন](./statistics_1/1.3_data_visualization.md)
     
+    - [কেন্দ্রীয় প্রবণতা বা Central Tendency](./statistics_1/1.4_central_tendency.md)
+    
       
 

@@ -4,7 +4,8 @@
 
 * [ডেটা সংগ্রহের বিভিন্ন পদ্ধতি ও তার সুবিধা-অসুবিধা](./1.1_data_collecting_method_and_pros_and_cons.md)
 * [নমুনা, পপুলেশন ঔ স্যাম্পলিং ইরর](./1.2_population_sample_sampling_error.md)
-* [ডেটা ভিজ্যুয়ালাইজেশন](./1.3_data_visualization.md)
+* [ডেটা ভিজ্যুয়ালাইজেশন](./1.3_data_visualization.md)'
+* [কেন্দ্রীয় প্রবণতা বা Central Tendency](./1.4_central_tendency.md)'
 
 
 

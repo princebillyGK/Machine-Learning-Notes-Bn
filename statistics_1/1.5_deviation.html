@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>নমুনা, পপুলেশন ঔ স্যাম্পলিং ইরর - মেশিন লার্নিং</title>
+        <title>বিচ্যুতি - মেশিন লার্নিং</title>
                 
 
         <!-- Custom HTML head -->
@@ -84,7 +84,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../statistics_1/index.html"><strong aria-hidden="true">1.</strong> পরিসংখ্যান</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../statistics_1/descriptive_statistics_1.html"><strong aria-hidden="true">1.1.</strong> বর্ণনামূলক পরিসংখ্যান</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../statistics_1/1.1_data_collecting_method_and_pros_and_cons.html"><strong aria-hidden="true">1.1.1.</strong> ডেটা সংগ্রহের বিভিন্ন পদ্ধতি ও তার সুবিধা-অসুবিধা</a></li><li class="chapter-item expanded "><a href="../statistics_1/1.2_population_sample_sampling_error.html" class="active"><strong aria-hidden="true">1.1.2.</strong> নমুনা, পপুলেশন ঔ স্যাম্পলিং ইরর</a></li><li class="chapter-item expanded "><a href="../statistics_1/1.3_data_visualization.html"><strong aria-hidden="true">1.1.3.</strong> ডেটা ভিজ্যুয়ালাইজেশন</a></li><li class="chapter-item expanded "><a href="../statistics_1/1.4_central_tendency.html"><strong aria-hidden="true">1.1.4.</strong> কেন্দ্রীয় প্রবণতা বা Central Tendency</a></li><li class="chapter-item expanded "><a href="../statistics_1/1.5_deviation.html"><strong aria-hidden="true">1.1.5.</strong> বিচ্যুতি</a></li></ol></li></ol></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../statistics_1/index.html"><strong aria-hidden="true">1.</strong> পরিসংখ্যান</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../statistics_1/descriptive_statistics_1.html"><strong aria-hidden="true">1.1.</strong> বর্ণনামূলক পরিসংখ্যান</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../statistics_1/1.1_data_collecting_method_and_pros_and_cons.html"><strong aria-hidden="true">1.1.1.</strong> ডেটা সংগ্রহের বিভিন্ন পদ্ধতি ও তার সুবিধা-অসুবিধা</a></li><li class="chapter-item expanded "><a href="../statistics_1/1.2_population_sample_sampling_error.html"><strong aria-hidden="true">1.1.2.</strong> নমুনা, পপুলেশন ঔ স্যাম্পলিং ইরর</a></li><li class="chapter-item expanded "><a href="../statistics_1/1.3_data_visualization.html"><strong aria-hidden="true">1.1.3.</strong> ডেটা ভিজ্যুয়ালাইজেশন</a></li><li class="chapter-item expanded "><a href="../statistics_1/1.4_central_tendency.html"><strong aria-hidden="true">1.1.4.</strong> কেন্দ্রীয় প্রবণতা বা Central Tendency</a></li><li class="chapter-item expanded "><a href="../statistics_1/1.5_deviation.html" class="active"><strong aria-hidden="true">1.1.5.</strong> বিচ্যুতি</a></li></ol></li></ol></li></ol>            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
@@ -145,32 +145,34 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="নমুনা-পপুলেশন-ঔ-সযামপলিং-ইরর"><a class="header" href="#নমুনা-পপুলেশন-ঔ-সযামপলিং-ইরর">নমুনা, পপুলেশন ঔ স্যাম্পলিং ইরর</a></h1>
-<p><strong>পপুলেশন (Population):</strong> পরিসংখ্যানের ডেটাসটের আালোচ্য বিযয়বস্তুর সমগ্রগোষ্ঠীকে একত্রে পপুলেশন বলে। </p>
-<p><strong>নমুনা বা স্যাম্পল (Sample):</strong> পপুলেশনের যেকনো একটি নির্দিষ্ট অংশকে স্যাম্পল  বলে। অর্থাৎ স্যাম্পল হল পুপলেশনের একটি উপসেট। </p>
-<p><strong>স্যাম্পলিং ইরর (Sampling Error):</strong> সকল বিষয়বস্তু বা পপুলেশনের এবং কোন সাম্পল এর উপর কোনো পরিসংখ্যান করলে এদের মানের যে পার্থক্য হয় তাকেই সাম্পলিং ইরর বলে।</p>
-<p>যদি স্যাম্পল থেকে প্রাপ্ত গড় \(\bar x\) এবং পপুলেশন থেকে প্রাপ্ত গড় যদি \(\mu\) হয় তাহলে সাম্পলিং ইরর হবে:
-$$
-samplingError = \mu - \bar x
-$$</p>
-<p><img src="../assets/img/population_sample_example.jpeg" alt="What is Population, Sample and Sampling Error?" /></p>
-<p><strong>নোটস:</strong></p>
-<ol>
-<li>স্যাম্পল থেকে প্রাপ্ত পরিসংখ্যানের ফলাফল ও পপুলেশন থেকে প্রাপ্ত পরিসংখ্যানের ফলাফল অবস্থাভেদে সম্পূর্ণ ভিন্ন হতে পারে। </li>
-<li>একই পপুলেশনের বিভিন্ন উপসেট নিয়ে স্যাম্পল গঠন করলে ঔই স্যাম্পলগুলো থেকে প্রাপ্ত ফলাফল ভিন্ন ভিন্ন হতে পারে। </li>
-</ol>
+                        <h1 id="বিচযুতি-deviation"><a class="header" href="#বিচযুতি-deviation">বিচ্যুতি (Deviation)</a></h1>
+<table><thead><tr><th></th><th>বিচ্যুতি<br>Deviation</th><th>পরম বিচ্যুতি<br>Absolute Deviation</th><th><strong>বর্গ বিচ্যুতি<br>Squared Deviation</strong></th></tr></thead><tbody>
+<tr><td><strong>ফরমূলা</strong></td><td>\[ x - \bar x \]</td><td>\[ |x - \bar x|\]</td><td>\[ (x - \bar x)^2\]</td></tr>
+</tbody></table>
+<h1 id=""><a class="header" href="#"></a></h1>
+<table><thead><tr><th></th><th>গড় বিচ্যুতি  <br>Avg. Deviation<br>D</th><th>গড় পরম বিচ্যুতি <br>Avg. Abs. Deviation<br>AD</th><th>গড় বর্গ বিচ্যুতি <br> Avg. Squared Deviation<br>SS (‌‌\( \sigma^2\))‌</th><th>আদর্শ বিচ্যুতি <br>Standard Deviation<br> SD (\(\sigma\))</th><th>Bessel's correction <br>নমুনা আদর্শ বিচ্যুতি <br/>Sample Standard Deviation<br/> S</th></tr></thead><tbody>
+<tr><td><strong>ফরমূলা</strong></td><td>\[ \frac{\sum(x - \bar x)}{n} \]</td><td>\[ \frac{\sum{|x - \bar x|}}{n} \]</td><td>\[ \frac{\sum(x - \bar x)^2}{n} \]</td><td>‌\[ \sigma = \sqrt {\frac{\sum(x - \bar x)^2}{n}} \]</td><td>‌\[ S = \sqrt {\frac{\sum(x - \bar x)^2}{n-1}} \]</td></tr>
+</tbody></table>
+<h3 id="আদরশ-বিচযুতির-বৈশিষটয"><a class="header" href="#আদরশ-বিচযুতির-বৈশিষটয">আদর্শ বিচ্যুতির বৈশিষ্ট্য:</a></h3>
+<ul>
+<li>
+<p>ডেটাসেটের 68% রাশি \( \bar x - \sigma \)  এবং  \( \bar x + \sigma \) রেঞ্জের মধ্যে পরে</p>
+</li>
+<li>
+<p>ডেটাসেটের 95% রাশি \( \bar x - 2\sigma \)  এবং  \( \bar x +2\sigma \) রেঞ্জের মধ্যে পরে</p>
+</li>
+</ul>
+<p><img src="https://imgur.com/y70YBcM.png" alt="Standard Deviation Characterstics" /></p>
+<p>Bessel's Correction on Standard Deviation</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                                                    <a rel="prev" href="../statistics_1/1.1_data_collecting_method_and_pros_and_cons.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                                    <a rel="prev" href="../statistics_1/1.4_central_tendency.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         
-                                                    <a rel="next" href="../statistics_1/1.3_data_visualization.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
                         
                         <div style="clear: both"></div>
                     </nav>
@@ -178,13 +180,10 @@ $$</p>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                                    <a rel="prev" href="../statistics_1/1.1_data_collecting_method_and_pros_and_cons.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                    <a rel="prev" href="../statistics_1/1.4_central_tendency.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
                 
-                                    <a rel="next" href="../statistics_1/1.3_data_visualization.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
                             </nav>
 
         </div>

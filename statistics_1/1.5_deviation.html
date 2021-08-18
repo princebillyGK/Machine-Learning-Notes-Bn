@@ -150,7 +150,7 @@
 <tr><td><strong>ফরমূলা</strong></td><td>\[ x - \bar x \]</td><td>\[ |x - \bar x|\]</td><td>\[ (x - \bar x)^2\]</td></tr>
 </tbody></table>
 <h1 id=""><a class="header" href="#"></a></h1>
-<table><thead><tr><th></th><th>গড় বিচ্যুতি  <br>Avg. Deviation<br>D</th><th>গড় পরম বিচ্যুতি <br>Avg. Abs. Deviation<br>AD</th><th>গড় বর্গ বিচ্যুতি <br> Avg. Squared Deviation<br>SS (‌‌\( \sigma^2\))‌</th><th>আদর্শ বিচ্যুতি <br>Standard Deviation<br> SD (\(\sigma\))</th><th>Bessel's correction <br>নমুনা আদর্শ বিচ্যুতি <br/>Sample Standard Deviation<br/> S</th></tr></thead><tbody>
+<table><thead><tr><th></th><th>গড় বিচ্যুতি  <br>Avg. Deviation<br>D</th><th>গড় পরম বিচ্যুতি <br>Avg. Abs. Deviation<br>AD</th><th>গড় বর্গ বিচ্যুতি <br> Avg. Squared Deviation / Variance<br>SS (‌‌\( \sigma^2\))‌</th><th>আদর্শ বিচ্যুতি <br>Standard Deviation<br> SD (\(\sigma\))</th><th>Bessel's correction <br>নমুনা আদর্শ বিচ্যুতি <br/>Sample Standard Deviation<br/> S</th></tr></thead><tbody>
 <tr><td><strong>ফরমূলা</strong></td><td>\[ \frac{\sum(x - \bar x)}{n} \]</td><td>\[ \frac{\sum{|x - \bar x|}}{n} \]</td><td>\[ \frac{\sum(x - \bar x)^2}{n} \]</td><td>‌\[ \sigma = \sqrt {\frac{\sum(x - \bar x)^2}{n}} \]</td><td>‌\[ S = \sqrt {\frac{\sum(x - \bar x)^2}{n-1}} \]</td></tr>
 </tbody></table>
 <h3 id="আদরশ-বিচযুতির-বৈশিষটয"><a class="header" href="#আদরশ-বিচযুতির-বৈশিষটয">আদর্শ বিচ্যুতির বৈশিষ্ট্য:</a></h3>
@@ -163,7 +163,10 @@
 </li>
 </ul>
 <p><img src="https://imgur.com/y70YBcM.png" alt="Standard Deviation Characterstics" /></p>
-<p>Bessel's Correction on Standard Deviation</p>
+<h2 id="bessels-correction-on-standard-deviation"><a class="header" href="#bessels-correction-on-standard-deviation">Bessel's Correction on Standard Deviation:</a></h2>
+<p>একটি বিশাল পপুলেশন থেকে একটি স্যাম্পল নিয়ে তার ডেটাসেট থেকে Standard Deviation বেড় করতে হলে সঠিক মান পাওয়ার জন্য n এর পরিবর্তে n-1 দিয়ে গুন করতে হয়।</p>
+<p>‌‌\[ S = \sqrt {\frac{\sum(x - \bar x)^2}{n-1}} ‌\]</p>
+<p>একেই Bessel's correction বলে অভিহিত করা হয়।</p>
 
                     </main>
 
